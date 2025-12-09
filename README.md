@@ -53,19 +53,15 @@ Matches methodology used in published forecasting research
 ## 📁 Data Format Needed
 Your sales data should be either a CSV or Excel file with these three columns:
 
-Excel
+## Excel
 
-date (any date format)
+date (any date format) - product (product names as text) - sales (numbers, can have decimals)
+ 
+## csv
 
-product (product names as text)
-
-sales (numbers, can have decimals)
-
-csv
 date,product,sales
 2023-01-31,Product A,1200.50
-2023-01-31,Product B,850.00
-2023-02-28,Product A,1350.75
+
 
 ## 📊 What You Get
 The tool generates:
