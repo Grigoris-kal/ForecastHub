@@ -10,20 +10,16 @@ Statsmodels handles time series forecasting (ARIMA, Exponential Smoothing)
 
 Scikit-learn provides machine learning components (Random Forest)
 
-Tkinter creates the graphical interface so you don't need to deal with code code. With a few clicks historical data can easily be uploaded and forecasts downloaded. 
-
 The forecast tool analyzes historical sales, detects patterns and trends, and generates forecasts with confidence intervals.
 
 ## 🖱️ GUI Interface attached (No Coding Needed)
 Included within the code is a graphical interface permititng to upload and download data easily with only a few clicks.  
 
-Import CSV/Excel files with a few clicks
+Import CSV/Excel files
 
 Adjust settings through simple dropdowns
 
 Download reports in multiple formats
-
-First launch might take a moment (Python libraries load initially)
 
 Never need to touch code if you don't want to
 
@@ -36,7 +32,20 @@ ARIMA time series model (classical statistical approach)
 
 Random Forest regression (machine learning approach)
 
-Then it combines their predictions, weighting each model based on how well it fits your specific data. The result is an "ensemble forecast" that's typically more robust than any single model alone.
+The code then combines predictions, weighting each model based on how well it fits your specific data. 
+
+## 🔬 Bottom Line:
+ForecastHub's model selection logic is:
+
+Data-driven (not arbitrary)
+
+Uses statistical criteria (AIC, seasonality tests)
+
+Has proper validation (cross-validation for ML)
+
+Follows best practices (minimum data, error handling)
+
+Matches methodology used in published forecasting research
 
 ## 📁 Data Format Needed
 Your sales data should be either a CSV or Excel file with these three columns:
@@ -76,18 +85,4 @@ Folder Behavior:
 📅 Files are timestamped (monthly.csv, report.xlsx, etc.)
 
 🔄 New runs add files without deleting old ones
-
-🚀 Getting Started
-Install Python (3.8 or newer)
-
-Install required libraries: pip install pandas numpy statsmodels scikit-learn matplotlib seaborn fpdf openpyxl
-
-Run the tool: python ForecastHub.py
-
-Load your sales data through the GUI
-
-Or use the console mode: python ForecastHub.py --console
-
-📄 License
-Open source - use it, modify it, share it.
 
