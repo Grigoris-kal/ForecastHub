@@ -1,5 +1,5 @@
 # ForecastHub: Local Python Sales Forecasting Tool
-A Python-based sales forecasting tool that runs entirely on your computer. No cloud connectivity required, as a result, no sensitive data leaving your machine. Also included is a Graphical User Interface so that the user may upload and download one's data without touching any code and thus offering a user friendly and code-safe forecasting tool.
+A Python-based sales forecasting tool that runs entirely on your computer. No cloud connectivity required, as a result, no sensitive data leaving your machine. Also included is a Graphical User Interface that allows the user to both upload and download data without touching any coode thus offering a user-friendly and code-safe forecasting tool.
 
 ## 🔧 How It Works (Technically)
 Built with the below Python libraries:
@@ -24,6 +24,9 @@ Download reports in multiple formats
 Never need to touch code if you don't want to
 
 ## 📈 The Forecasting Approach
+
+Exponential Smoothing (core forecasting principle)
+
 Runs multiple models simultaneously:
 
 Holt-Winters Exponential Smoothing (for trends & seasonality)
