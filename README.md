@@ -54,6 +54,7 @@ Matches methodology used in published forecasting research
 Your sales data should be either a CSV or Excel file with these three columns:
 
 Excel
+
 date (any date format)
 
 product (product names as text)
