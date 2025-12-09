@@ -10,9 +10,9 @@ Statsmodels handles time series forecasting (ARIMA, Exponential Smoothing)
 
 Scikit-learn provides machine learning components (Random Forest)
 
-Tkinter creates the graphical interface so you don't need to deal with code code. With a few clicks your data can be uploaded and downloaded. 
+Tkinter creates the graphical interface so you don't need to deal with code code. With a few clicks historical data can easily be uploaded and forecasts downloaded. 
 
-The tool analyzes historical sales, detects patterns and trends, and generates forecasts with confidence intervals.
+The forecast tool analyzes historical sales, detects patterns and trends, and generates forecasts with confidence intervals.
 
 ## 🖱️ GUI Interface attached (No Coding Needed)
 Included within the code is a graphical interface permititng to upload and download data easily with only a few clicks.  
