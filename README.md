@@ -1,8 +1,8 @@
 # ForecastHub: Local Python Sales Forecasting Tool
-A Python-based sales forecasting tool that runs entirely on your computer. No cloud connectivity, as a result, no sensitive data leaving your machine. Also, included is a Graphical User Interface so that the user may upload and download one's data without touching any code and thus offering a user friendly and code-safe forecasting tool.
+A Python-based sales forecasting tool that runs entirely on your computer. No cloud connectivity, as a result, no sensitive data leaving your machine. Also included is a Graphical User Interface so that the user may upload and download one's data without touching any code and thus offering a user friendly and code-safe forecasting tool.
 
 ## 🔧 How It Works (Technically)
-Built with Python's scientific libraries:
+Built with the below Python libraries:
 
 Pandas loads and cleans your sales data
 
@@ -27,7 +27,7 @@ First launch might take a moment (Python libraries load initially)
 
 Never need to touch code if you don't want to
 
-📈 The Forecasting Approach
+## 📈 The Forecasting Approach
 Runs multiple models simultaneously:
 
 Holt-Winters Exponential Smoothing (for trends & seasonality)
@@ -38,23 +38,23 @@ Random Forest regression (machine learning approach)
 
 Then it combines their predictions, weighting each model based on how well it fits your specific data. The result is an "ensemble forecast" that's typically more robust than any single model alone.
 
-📁 Data Format Needed
+## 📁 Data Format Needed
 Your sales data should be either a CSV or Excel file with these three columns:
 
+Excel
 date (any date format)
 
 product (product names as text)
 
 sales (numbers, can have decimals)
 
-Example:
-
 csv
 date,product,sales
 2023-01-31,Product A,1200.50
 2023-01-31,Product B,850.00
 2023-02-28,Product A,1350.75
-📊 What You Get
+
+## 📊 What You Get
 The tool generates:
 
 CSV files with forecasts and historical data
@@ -67,7 +67,7 @@ Charts visualizing trends
 
 Error margins and confidence scores indicating forecast reliability
 
-📁 Output Files Location
+## 📁 Output Files Location
 When you run forecasts, all generated files are automatically saved to a "forecast_reports" folder created by the tool.
 
 Folder Behavior:
@@ -87,13 +87,6 @@ Run the tool: python ForecastHub.py
 Load your sales data through the GUI
 
 Or use the console mode: python ForecastHub.py --console
-
-📝 Notes
-The first run might be slow as Python loads all the libraries
-
-More historical data (24+ months) gives better forecasts
-
-The GUI is basic but functional - it gets the job done
 
 📄 License
 Open source - use it, modify it, share it.
