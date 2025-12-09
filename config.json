@@ -1,0 +1,21 @@
+{
+  "forecast_horizon": 12,
+  "confidence_level": 0.95,
+  "min_data_months": 6,
+  "default_output_dir": "forecast_reports",
+  "generate_csv": true,
+  "generate_excel": true,
+  "generate_pdf": true,
+  "generate_charts": true,
+  "theme_color": "#2C3E50",
+  "risk_thresholds": {
+    "high_risk": 40,
+    "medium_risk": 60,
+    "low_risk": 80
+  },
+  "growth_thresholds": {
+    "high_growth": 20,
+    "moderate_growth": 10,
+    "decline": -5
+  }
+}

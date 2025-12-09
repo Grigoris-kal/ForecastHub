@@ -1,0 +1,16 @@
+Python 3.8 or newer
+
+Required libraries:
+pandas
+numpy
+matplotlib
+scikit-learn
+statsmodels
+openpyxl
+fpdf
+seaborn (optional)
+
+Install with:
+pip install pandas numpy matplotlib scikit-learn statsmodels openpyxl fpdf seaborn
+
+Tkinter GUI comes with Python (no install needed)
